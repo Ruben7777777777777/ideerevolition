@@ -4,14 +4,22 @@
  <meta charset="UTF-8" />
  <meta name="viewport"
 content="width=device-width,initial-
-scale=1" />
- <title>Test Bouton</title>
+scale=1.0" />
+ <title>Scan en cours...</title>
+ <link rel="stylesheet"
+  href="style.css" />
 </head>
 <body>
- <button id="testBtn">Clique ici</button>
-   <script>
-document.getElementById("testBtn").addEventListener("click", () => {
- fonctionne !");
+<div class="container">
+ <h1>SCAN EN COURS...</h1>
+ <p>Patiente un instant pendant que nous découvrons ta vraie nature.</p>
+ <button id="backBtn"> Retour à l'acceuil </button>
+</div>
+
+    <script>
+ document.getElementById ("bacBtn").addEventListener("click", () => {
+  window.location.href =
+   "index.html";
 });
  </scipt>
  </body>
