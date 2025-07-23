@@ -1,4 +1,4 @@
-document.getElementByld("startBtn").addE
-ventListenner("click",() => {
-  window.location.href = "test.html";
+document.getElementByld("startBtn").
+addEventListenner("click",() => {
+  alert("Scan démarré !");
 });
