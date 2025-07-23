@@ -1,2 +1,6 @@
-  alert("Le script fonctionne !");
+document.getElementById("starBtn").
+addEventListener("click",  => {
+  window.location.href =
+"test.html";
+});
 
