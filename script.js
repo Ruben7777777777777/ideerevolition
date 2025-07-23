@@ -1,5 +1,5 @@
 document.getElementById("starBtn").
-addEventListener("click",  => {
+addEventListener("click", () => {
   window.location.href =
 "test.html";
 });
