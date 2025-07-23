@@ -1,4 +1,2 @@
-document.getElementByld("startBtn").
-addEventListener("click",() => {
-  alert("Bouton cliqué !");
-});
+  alert("Le script fonctionne !");
+
